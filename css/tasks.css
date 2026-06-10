@@ -1,0 +1,14 @@
+@import url('tasks-header.css');
+
+.task-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.task-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7c3aed;
+    flex-shrink: 0;
+}

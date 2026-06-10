@@ -1,0 +1,23 @@
+#tasksMap { 
+    width: calc(100% - 32px); 
+    height: calc(100vh - 240px); 
+    border-radius: 14px;
+    overflow: hidden;
+    border: 2px solid #7c3aed;
+    margin: 0 16px;
+}
+
+.task-preview {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: #fff; border-radius: 16px 16px 0 0;
+    padding: 16px 20px 32px; box-shadow: 0 -4px 16px rgba(0,0,0,0.08);
+    display: none; z-index: 1000;
+}
+
+.task-preview .preview-row { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.task-preview .preview-icon { font-size: 28px; }
+.task-preview .preview-info { flex: 1; }
+.task-preview .preview-info h3 { font-size: 15px; color: #1a1a1a; margin-bottom: 2px; }
+.task-preview .preview-info p { font-size: 12px; color: #888; }
+.task-preview .preview-price { font-size: 18px; font-weight: 600; color: #7c3aed; }
+.task-preview .view-btn { display: block; text-align: center; padding: 12px; background: #7c3aed; color: #fff; border-radius: 10px; text-decoration: none; font-size: 14px; font-weight: 500; }
