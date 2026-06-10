@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britkor - Tasks Map</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/tasks-map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>britkor</h1>
+        <a href="profile.html">
+            <div class="profile-avatar">
+                <img src="assets/circle-user.svg" alt="Profile">
+            </div>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="tasks-header">
+            <h2>Available Tasks</h2>
+            <div class="view-switch">
+                <a href="tasks.html" class="switch-btn">
+                    <img src="assets/list.svg" width="16" height="16" alt="List"> List
+                </a>
+                <a href="tasks-map.html" class="switch-btn active">
+                    <img src="assets/map.svg" width="16" height="16" alt="Map"> Map
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="tasksMap"></div>
+
+    <div class="task-preview" id="taskPreview">
+        <div class="preview-row">
+            <span class="preview-icon" id="previewIcon">🧹</span>
+            <div class="preview-info">
+                <h3 id="previewTitle">Clean apartment</h3>
+                <p id="previewDist">2.3 km away</p>
+            </div>
+            <span class="preview-price" id="previewPrice">150 MAD</span>
+        </div>
+        <a href="detail.html" class="view-btn">View Details</a>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="js/tasks-map.js"></script>
+</body>
+</html>
