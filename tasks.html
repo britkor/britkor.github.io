@@ -30,39 +30,7 @@
                 </a>
             </div>
         </div>
-
-        <a href="detail.html" class="card-link">
-            <div class="card task-card">
-                <span class="card-icon">🧹</span>
-                <div class="card-info">
-                    <h3>Clean my apartment</h3>
-                    <p>Casablanca · 2 hours ago</p>
-                </div>
-                <span class="task-price">150 MAD</span>
-            </div>
-        </a>
-
-        <a href="detail.html" class="card-link">
-            <div class="card task-card">
-                <span class="card-icon">📦</span>
-                <div class="card-info">
-                    <h3>Move furniture</h3>
-                    <p>Casablanca · 5 hours ago</p>
-                </div>
-                <span class="task-price">300 MAD</span>
-            </div>
-        </a>
-
-        <a href="detail.html" class="card-link">
-            <div class="card task-card">
-                <span class="card-icon">🔧</span>
-                <div class="card-info">
-                    <h3>Fix kitchen pipe</h3>
-                    <p>Casablanca · 1 day ago</p>
-                </div>
-                <span class="task-price">200 MAD</span>
-            </div>
-        </a>
+        <button onclick="refreshTasks()" class="refresh-btn">🔄 Refresh</button>
     </div>
 
     <div class="bottom-nav">
@@ -71,5 +39,7 @@
         <a href="messages.html">Messages</a>
         <a href="profile.html">Profile</a>
     </div>
+
+    <script src="js/tasks.js"></script>
 </body>
 </html>

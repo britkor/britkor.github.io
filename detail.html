@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britkor - Task Detail</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>britkor</h1>
+        <a href="profile.html">
+            <div class="profile-avatar">
+                <img src="assets/circle-user.svg" alt="Profile">
+            </div>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="detail-card">
+            <div class="detail-icon" id="detailIcon">🧹</div>
+            <h2 id="detailTitle">Clean my apartment</h2>
+            <p class="detail-meta">Posted by <span class="at">@</span><span class="name" id="detailUsername">fatima_home</span> · <span id="detailDate">2 hours ago</span></p>
+
+            <div class="detail-map" id="detailMap"></div>
+            <a href="#" id="mapLink" target="_blank" class="map-btn">🗺️ View on Map</a>
+
+            <div class="detail-info">
+                <div class="detail-row">
+                    <span id="detailGender">👩 Female only</span>
+                    <span id="detailLocation">📍 Casablanca, Maarif</span>
+                </div>
+                <div class="detail-row">
+                    <span>📅 <span id="detailDate2">Before June 15</span></span>
+                    <span>💰 <strong id="detailBudget">150 MAD</strong></span>
+                </div>
+            </div>
+
+            <div class="detail-description">
+                <h3>Description</h3>
+                <p id="detailDescription">2 bedrooms, living room, kitchen. Need deep cleaning.</p>
+            </div>
+
+            <div class="detail-photos" id="detailPhotos"></div>
+
+            <button class="apply-btn">Apply Now</button>
+
+            <div class="door-hanger">
+                <a href="javascript:history.back()" class="hanger-back">Back</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+</html>
