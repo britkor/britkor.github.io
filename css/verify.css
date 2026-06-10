@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+    padding: 24px;
+}
+
+.container {
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    font-size: 26px;
+    color: #7c3aed;
+    margin-bottom: 24px;
+    letter-spacing: -0.3px;
+}
+
+.card {
+    padding: 40px 28px 32px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.5;
+}
+
+.card .at {
+    color: #1a1a1a;
+    font-weight: 600;
+    vertical-align: -1px;
+}
+
+.card .name {
+    color: #f97316;
+    font-weight: 600;
+}
+
+.links {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #999;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.footer {
+    font-size: 11px;
+    color: #bbb;
+    position: fixed;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
