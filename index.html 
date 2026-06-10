@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britkor - Register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/success.css">
+</head>
+<body>
+    <div class="container">
+        <h1>britkor</h1>
+        <div id="formWrap">
+            <form>
+                <input type="text" name="username" placeholder="Enter username" required>
+                <input type="email" name="email" placeholder="Enter email" required>
+                <input type="password" name="password" placeholder="Enter password" required>
+                <button type="submit">Sign up</button>
+                <p id="message"></p>
+            </form>
+        </div>
+        <div id="successWrap" style="display:none;">
+            <form>
+                <p class="success-icon">✅</p>
+                <p class="success-text">Account created. Check your email.<br><strong id="successEmail"></strong></p>
+            </form>
+        </div>
+        <p class="terms">By signing up, you agree to our<br><a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    <p class="copyright">&copy; 2026 Britkor. All rights reserved.</p>
+    <script src="js/register.js"></script>
+</body>
+</html>
